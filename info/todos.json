@@ -1,0 +1,43 @@
+[{
+  "_id": {
+    "$oid": "62ad66badf4c084b669ad68e"
+  },
+  "description": "Wash car",
+  "completed": false
+},{
+  "_id": {
+    "$oid": "62ad66badf4c084b669ad68f"
+  },
+  "description": "Dry clothes",
+  "completed": true
+},{
+  "_id": {
+    "$oid": "62aecdd94c9c3e0bbf12886c"
+  },
+  "description": "Replace lightbulbs",
+  "completed": false
+},{
+  "_id": {
+    "$oid": "62aecdff4c9c3e0bbf12886f"
+  },
+  "description": "Fix closet door",
+  "completed": false
+},{
+  "_id": {
+    "$oid": "62aed2d6165d1cde786931e9"
+  },
+  "description": "Fix patio door",
+  "completed": false
+},{
+  "_id": {
+    "$oid": "62aed622f48545c25d0c00ee"
+  },
+  "description": "Remove Christmas Lights",
+  "completed": false
+},{
+  "_id": {
+    "$oid": "62aed9ceaf890af9fd76c60a"
+  },
+  "description": "Clean kitchen",
+  "completed": false
+}]
