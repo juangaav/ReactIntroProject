@@ -1,0 +1,206 @@
+{
+	"info": {
+		"_postman_id": "1f72bf80-bad6-4a35-8029-efe964cba98f",
+		"name": "React Master Intro Project Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "9156312"
+	},
+	"item": [
+		{
+			"name": "Get By ID",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:3000/api/getOne/62ad66badf4c084b669ad68e",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"getOne",
+						"62ad66badf4c084b669ad68e"
+					],
+					"query": [
+						{
+							"key": "language",
+							"value": "en-US",
+							"disabled": true
+						},
+						{
+							"key": "include_adult",
+							"value": "false",
+							"disabled": true
+						},
+						{
+							"key": "include_video",
+							"value": "false",
+							"disabled": true
+						},
+						{
+							"key": "page",
+							"value": "1",
+							"disabled": true
+						},
+						{
+							"key": "with_watch_monetization_types",
+							"value": "flatratevie",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:3000/api/getAll",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"getAll"
+					],
+					"query": [
+						{
+							"key": "language",
+							"value": "en-US",
+							"disabled": true
+						},
+						{
+							"key": "include_adult",
+							"value": "false",
+							"disabled": true
+						},
+						{
+							"key": "include_video",
+							"value": "false",
+							"disabled": true
+						},
+						{
+							"key": "page",
+							"value": "1",
+							"disabled": true
+						},
+						{
+							"key": "with_watch_monetization_types",
+							"value": "flatratevie",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Replace data with PUT",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\r\n        \"description\": \"Replace lightbulbs\",\r\n        \"completed\": false\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/api/update/62ae5ee0b5c306ebc84de7d7",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"update",
+						"62ae5ee0b5c306ebc84de7d7"
+					]
+				},
+				"description": "Posts a new record into the database"
+			},
+			"response": []
+		},
+		{
+			"name": "Post new data",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\r\n        \"description\": \"Vacuum house\",\r\n        \"completed\": true\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/api/post",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"post"
+					]
+				},
+				"description": "Posts a new record to database"
+			},
+			"response": []
+		},
+		{
+			"name": "Delete element",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/api/delete/62ae619f63ff264ebd047021",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"delete",
+						"62ae619f63ff264ebd047021"
+					]
+				},
+				"description": "Deletes record with given id"
+			},
+			"response": []
+		}
+	]
+}
